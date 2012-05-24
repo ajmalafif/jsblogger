@@ -20,6 +20,12 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+# Visit http://localhost:3000/rails/routes and you'll see an output similar to rake routes
+group :development do
+  gem 'sextant'
+end
+
+
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
