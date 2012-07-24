@@ -9,7 +9,11 @@ class ArticlesController < ApplicationController
 	end
 
 	def new
+		@article = Article.new
+	end
 
+	def create
+		raise params.inspect
 	end
 
 end
